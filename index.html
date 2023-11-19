@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ADI Design Agency</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-logo">
+            <a href="#">
+                <img src="images/adilogo.png">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Home</a></li>
+            <li id="link1" class="link"><a href="#">About</a></li>
+            <li id="link2" class="link"><a href="#">Video Design</a></li>
+            <li id="link3" class="link"><a href="#">Graphic Design</a></li>
+        </ul>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>Welcome to ADI Designs</h4>
+            <H1>Bringing your <span>vision</span> to life</H1>
+            <p>
+                We are a Design and Branding Agency dedicated to elevating businesses through impactful logos, comprehensive brand identities, and compelling advertising. Our passion lies in transforming your brand into a powerful and memorable entity. With a focus on creativity, innovation, and strategic design, we collaborate closely to bring your vision to life, ensuring excellence in every aspect.
+            </p>
+        </div>
+        <div class="video">
+            <video width="320" height="240" autoplay muted loop>
+                <source src="adilogovid.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">OUR SERVICES</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-video-fill"></i></span>
+                <h4>Video Design</h4>
+                <p>
+                    Elevate your brand with captivating video content that tells your story, engages your audience, 
+                    and leaves a lasting impression with dynamic visuals.               
+                </p>
+                <a href="#">See More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-palette-fill"></i></span>
+                <h4>Poster Design</h4>
+                <p>
+                    Enhance your event's visibility with our striking poster designs. 
+                    From eye-catching graphics to essential details, we create visuals that ensure your event is unmissable.
+                </p>
+                <a href="#">See More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-code-box-line"></i></span>
+                <h4>Logo Design</h4>
+                <p>
+                    We specialize in designing logos that speak volumes, creating a visual identity that is distinctive, 
+                    memorable, and representative of your brand.
+                </p>
+                <a href="#">See More <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-code-box-line"></i></span>
+                <h4>Web Design</h4>
+                <p>
+                    Transform your online presence with our expert web design services. We create user-centric, 
+                    visually appealing websites that deliver a seamless and memorable experience.
+                </p>
+                <a href="#">See More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">RECENT PROJECTS</h2>
+        <p class="sub-header">
+            A Visual Portfolio of Our Latest Creations in Video, Poster, Logo, and Web Design
+             – Where Every Project Tells a Unique Story of Creativity and Craftsmanship.
+        </p>
+        
+        <div class="unit"> <!-- Corrected class name to "unti" -->
+            <div class="stacked">
+                <div class="box">
+                    <video onmouseover="this.play();this.setAttribute('controls','controls')" onmouseout="this.load();this.removeAttribute('controls')">
+                        <source src="projects/minnalvid.mp4#t=12.8" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="box">
+                    <video onmouseover="this.play();this.setAttribute('controls','controls')" onmouseout="this.load();this.removeAttribute('controls')">
+                        <source src="projects/houseinnvid.mp4#t=11.6" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <div class="side-by-side">
+                <img src="projects/melamposter.png">
+            </div>
+        </div>
+    
+        <div class="unit"> <!-- Corrected class name to "unti" -->
+            <div class="side-by-side">
+                <img src="projects/paradiseposter.jpg">
+            </div>
+            <div class="stacked">
+                <div class="box">
+                    <video onmouseover="this.play();this.setAttribute('controls','controls')" onmouseout="this.load();this.removeAttribute('controls')">
+                        <source src="projects/melamaftersvid.mp4#t=16" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="box">
+                    <video onmouseover="this.play();this.setAttribute('controls','controls')" onmouseout="this.load();this.removeAttribute('controls')">
+                        <source src="projects/melamvid.mp4#t=17.9" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="buttonContainer">
+        <button class="viewbtn">View More</button>
+    </div>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="images/adilogo.png">
+            </div>
+            <p>
+                Bringing your vision to life
+            </p>
+            <div class="socials">
+                <a href="https://www.instagram.com/adi.visuals/"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
+        </div>
+        <div class="column">
+            <h4>About Us</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Channels</a>
+            <a href="#">Sponsors</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2023 ADI Visuals. All Rights Reserved.
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
